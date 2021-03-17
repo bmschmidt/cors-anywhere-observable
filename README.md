@@ -30,6 +30,13 @@ All you have to do is Deploy this app to heroku (button above), then add an env 
 <your_observable_username>.static.observableusercontent.com
 ```
 
+If you wish to add multiple collaborators, separate with commas but without any spaces or newlines between items.
+
+```
+<team_member_a_observable_username>.static.observableusercontent.com,<team_member_b_observable_username>.static.observableusercontent.com
+
+```
+
 Now, you'll have your own CORS Anywhere server that will only proxy requests that come from your own Observable Notebooks!
 
 ## Advantages
